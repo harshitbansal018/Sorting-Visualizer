@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+header {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.array-inputs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.array-inputs p {
+    margin: 0;
+}
+
+header_right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-heading {
+    font-size: 2rem;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+.algos {
+    display: flex;
+    gap: 1rem;
+}
+
+.algos button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.algos button:hover {
+    background-color: #555;
+    color: white;
+}
+
+section {
+    width: 100%;
+    max-width: 1200px;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#array_container {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.array-element {
+    background-color: lightblue;
+    border: 2px solid #333;
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.array-element.red {
+    background-color: red !important;
+}
+
+.array-element.green {
+    background-color: green !important;
+}
+
+footer {
+    margin-top: auto;
+    padding: 7rem 0;
+    width: 100%;
+    background-color: #333;
+   font-size: 18px;
+    color: white;
+    text-align: center;
+   
+}
+
+footer a {
+    color: #ddd;
+    text-decoration: none;
+   
+}
+#algorithm-description {
+    width: 100%;
+    margin: 2rem auto;
+    padding: 3rem;
+    border: 13px solid #333;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#algorithm-description h2 {
+    margin: 0 0 1rem 0;
+    font-size: 2rem; /* Increase font size for the heading */
+}
+
+#algorithm-description p {
+    margin: 1rem 0; /* Increase margin for paragraphs */
+    font-size: 1.2rem; /* Increase font size for the description */
+    line-height: 1.6; /* Adjust line height for better readability */
+}
+#rest {
+    font-size: 35px; /* Adjust the font size as per your requirement */
+}
+
+
+
